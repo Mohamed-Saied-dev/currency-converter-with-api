@@ -10,11 +10,6 @@ The app lets you convert from one currency to another. You choose the "from" and
 - If the API doesn’t work (like free quota ends), it uses default rates so the app doesn't break.
 - Simple and easy-to-use UI.
 
-## Files in the project:
-- `index.html`: the main page.
-- `style.css`: page styling.
-- `script.js`: handles API calls and currency conversion.
-
 ## Notes:
 - You’ll need an API key from CurrencyFreaks (free).
 - This project is for learning only, not for real money conversions.
