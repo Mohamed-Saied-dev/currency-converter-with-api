@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Currency Converter - mohmed saied</title>
+  <link rel="stylesheet" href="css/css.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Profile picture -->
+    <img src="photos/my-photo.png" alt="mohmed saied" class="profile-photo" />
+
+    <!-- Developer name -->
+    <h1>mohmed saied</h1>
+
+    <!-- Project description -->
+    <p class="description">
+      This project is a simple currency converter that fetches exchange rates using the <strong style="color: rgba(67, 167, 21, 0.701)"><a href="https://currencyfreaks.com/">CurrencyFreaks API</a></strong>.<br />
+      It's built for practice with APIs and data handling in JavaScript.<br />
+      If the free subscription expires, the page will fall back to default exchange values.<br />
+      <a href="https://api.currencyfreaks.com/v2.0/rates/latest?apikey=bc3c46efac5d4a7faa91771283472620" target="_blank">View API</a>
+    </p>
+
+    <!-- Select the original currency -->
+    <label for="fromCurrency">From Currency:</label>
+    <select id="fromCurrency">
+      <option value="EGP">EGP</option>
+      <option value="SAR">SAR</option>
+      <option value="USD">USD</option>
+    </select>
+
+    <!-- Original amount -->
+    <label for="fromAmount">Amount:</label>
+    <input type="number" id="fromAmount" placeholder="Enter amount" />
+
+    <!-- Select the target currency -->
+    <label for="toCurrency">To Currency:</label>
+    <select id="toCurrency">
+      <option value="EGP">EGP</option>
+      <option value="SAR">SAR</option>
+      <option value="USD">USD</option>
+    </select>
+
+    <!-- Converted amount -->
+    <label for="toAmount">Converted Amount:</label>
+    <input type="text" id="toAmount" readonly placeholder="Result" />
+
+    <!-- Convert button -->
+    <button id="convertBtn">Convert</button>
+  </div>
+
+  <script src="javaScript/javaScript.js"></script>
+</body>
+</html>
