@@ -1,0 +1,117 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #F2F7FC
+  ;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 340px;
+  width: 100%;
+  text-align: center;
+  caret-color: transparent;
+  transition: box-shadow .2s;
+}
+.container:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3)
+}
+
+/* Profile Photo */
+.profile-photo {
+  width: 110px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #007bff;
+  transition: .3s;
+}
+.profile-photo:hover {
+  transform: scale(1.08) rotate(2deg);
+}
+/* Heading */
+h1 {
+  margin: 5px 0 10px;
+  color: #333;
+}
+
+/* Project Description */
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.description a {
+  color: #007bff;
+  text-decoration: none;
+}
+.description a:hover {
+  text-decoration: underline;
+}
+
+/* Labels and Inputs */
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+}
+
+select,
+input[type="number"],
+input[readonly] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1.5px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+select:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+  caret-color: black;
+}
+
+input[readonly] {
+  background-color: #e9ecef;
+  color: #555;
+}
+
+/* Convert Button */
+button#convertBtn {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#convertBtn:hover {
+  background-color: #0056b3;
+}
