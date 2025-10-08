@@ -14,4 +14,4 @@ The app lets you convert from one currency to another. You choose the "from" and
 - You’ll need an API key from CurrencyFreaks (free).
 - This project is for learning only, not for real money conversions.
 
-- link : https://mohamed-saied-dev.github.io/currency-converter-with-api/
+- link : https://Mohamed-Saied0.github.io/currency-converter-with-api/
